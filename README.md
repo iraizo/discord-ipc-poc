@@ -7,4 +7,4 @@ if you send an packet  with the cmd `OVERLAY` and some args (read source code hi
 with the cmd `DISPATCH` and the `PID` you gave in `args`, that packet will give you the whole user object and token, this only works on windows
 as of right now since its the only OS where the overlay works, i do not know how to get it working on linux yet.
 
-<img src="https://cdn.discordapp.com/attachments/805472212718977074/805922532887887902/unknown.png">
+<img src=http://pays.host/uploads/68e43db6-db36-46c3-b69e-540a857770cf/1BCQ8TOn.png">
