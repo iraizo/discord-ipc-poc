@@ -73,7 +73,7 @@ fn main() {
 
         if json["cmd"] == "DISPATCH" && json["data"]["type"] == "DISPATCH" && json["data"]["pid"] == 4 {
 
-            println!("Got payload packet, reading out, size: {:?}..", msg.len());
+            println!("Got payload packet, reading out, size: {:?}kb.", msg.len() / 1024);
 
 
             let payload = &json["data"]["payloads"][0];
